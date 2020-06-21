@@ -1,0 +1,2 @@
+include name2nat/best-model.pt
+include name2nat/name2nats.pkl
