@@ -1,3 +1,7 @@
+[![image](https://img.shields.io/pypi/v/name2nat.svg)](https://pypi.org/project/name2nat/)
+[![image](https://img.shields.io/pypi/l/name2nat.svg)](https://pypi.org/project/name2nat/)
+[![image](https://img.shields.io/pypi/pyversions/name2nat.svg)](https://pypi.org/project/name2nat/)
+
 # name2nat: a Python package for nationality prediction from a name
 
 __name2nat__ is a Python package that predicts the nationality of any name written in Roman letters.
@@ -15,8 +19,8 @@ I constructed a new dataset for this project because I failed to find any availa
 
 * STEP 1. Downloaded and extracted the 20200601 English wiki dump (enwiki-20200601-pages-articles.xml).
 * STEP 2. Iterated all pages and collected the title and the nationality. 
-I regarded the title as a person if the Category section at the bottom of each page included ... births (green rectangule),
-and identified their nationality from the most frequent nationality word in the section (red rectangules).
+I regarded the title as a person if the Category section at the bottom of each page included ... births (green rectangle),
+and identified their nationality from the most frequent nationality word in the section (red rectangles).
 <img src="wiki.png" >
 * STEP 3. Randomly split the data into train/dev/test in the ratio of 8:1:1 within each nationality group.
 
