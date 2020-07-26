@@ -12,6 +12,11 @@ However, it is also true that there is a tendency between names and nationality.
 So it turns out statistical classifiers for this task works to some extent.
 Details are explained below.
 
+
+## Disclaimer
+I am aware that this topic may be viewed from a political perspective.
+That is absolutely AGAINST my motivation.
+
 ## NaNa Dataset
 
 ### Construction
@@ -269,7 +274,12 @@ python eval.py --gt nana/test.tgt --pred test.pred
 |4|92491/111368=83.0|
 |5|96697/111368=86.8|
 
-### References
+## Applications
+### Let's predict the nationalities of the first authors of the recent machine learning conferences.
+* Check `conferences.py` and `conferences/lrec2020.md`
+* Contributions (PRs) are welcome!
+
+## References
 
 If you use this code for research, please cite:
 
