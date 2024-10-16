@@ -1,0 +1,4 @@
+torch==1.7.1
+flair==0.6
+gensim==3.8.3
+smart_open==2.0.0
